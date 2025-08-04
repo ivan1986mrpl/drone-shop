@@ -2,7 +2,7 @@
  import { renderProductCards } from './modules/productCards.js';
  import { paginate } from './modules/pagination.js';
  import { closeCart, openCart } from './modules/cartPopup.js';
-// import { cartData } from './modules/cartData.js';
+ import { cartData } from './modules/cartData.js';
 // import { renderInitialProducts } from './modules/renderInitialProducts.js';
 // import { showMoreProducts } from './modules/showMoreProducts.js';
 // import { filter } from './modules/productFilters.js';
@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
   paginate(products);
   openCart();
   closeCart();
-//     // cartData();
+  cartData();
 //     // renderInitialProducts(products, productContainer, firstProductIndex, lastProductIndex);
 //     // showMoreProducts(products, productContainer, firstProductIndex, lastProductIndex);
 //     // filter(products, productContainer);
