@@ -1,7 +1,7 @@
  import products from './products.js';
  import { renderProductCards } from './modules/productCards.js';
  import { paginate } from './modules/pagination.js';
-// import { closeCart, openCart } from './modules/cartPopup.js';
+ import { closeCart, openCart } from './modules/cartPopup.js';
 // import { cartData } from './modules/cartData.js';
 // import { renderInitialProducts } from './modules/renderInitialProducts.js';
 // import { showMoreProducts } from './modules/showMoreProducts.js';
@@ -15,8 +15,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //  renderProductCards(products, productContainer);
   paginate(products);
-//     // openCart();
-//     // closeCart();
+  openCart();
+  closeCart();
 //     // cartData();
 //     // renderInitialProducts(products, productContainer, firstProductIndex, lastProductIndex);
 //     // showMoreProducts(products, productContainer, firstProductIndex, lastProductIndex);
