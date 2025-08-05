@@ -496,7 +496,7 @@ main .overlay.active {
 }
 .cart .cart-item {
     position: relative;
-}
+} 
 
 .cart .cart-item .close::before, .cart .cart-item  .close::after {
     content: '';
